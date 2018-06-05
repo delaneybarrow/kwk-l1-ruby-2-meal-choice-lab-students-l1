@@ -8,6 +8,10 @@ def breakfast(food="cereal")
   "Morning is the best time for #{food}!"
 end  
 
+def lunch(food="salad")
+  "#{food.capitalize} is a great thing to eat for lunch"
+end
+
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
